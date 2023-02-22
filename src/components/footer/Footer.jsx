@@ -1,7 +1,7 @@
 import React from 'react';
 import { BsLinkedin } from 'react-icons/bs';
 import { FaGithub } from 'react-icons/fa';
-import { BsTwitter } from 'react-icons/bs';
+import { SiLeetcode } from 'react-icons/si';
 import { BsFacebook } from 'react-icons/bs';
 import { BsInstagram } from 'react-icons/bs';
 import './footer.css';
@@ -20,7 +20,7 @@ const Footer = () => {
       </ul>
       <div className='footer__socials'>
         <a href='https://www.facebook.com/adersh.gr' className='logo__footer'><BsFacebook /></a>
-        <a href='https://twitter.com/_adersh_' className='logo__footer'><BsTwitter /></a>
+        <a href="https://leetcode.com/IMsherlocked/" className='logo__footer'><SiLeetcode /></a>
         <a href='https://www.instagram.com/adershgr/' className='logo__footer'><BsInstagram /></a>
         <a href='https://github.com/adershgr' className='logo__footer'><FaGithub /></a>
         <a href='https://www.linkedin.com/in/adersh-gr-506a1b1a6/' className='logo__footer'><BsLinkedin /></a>
