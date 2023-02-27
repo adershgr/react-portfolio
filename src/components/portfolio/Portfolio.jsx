@@ -1,7 +1,7 @@
 import React from 'react';
 import IMG1 from '../../assets/tenzi.png';
 import IMG2 from '../../assets/product-preview.png';
-// import IMG10 from '../../assets/bookstore.png';
+import IMG6 from '../../assets/foodapp.png'
 import IMG3 from '../../assets/calculator.png';
 import IMG4 from '../../assets/apiShop.png';
 import IMG5 from '../../assets/resumeHtml.png';
@@ -10,16 +10,16 @@ import './portfolio.css';
 
 const Portfolio = () => {
   const soloProjects = [
-    // {
-    //   id: 1,
-    //   title: 'Bookstore',
-    //   img: IMG2,
-    //   description:
-    //     'BookStore app that allows users to store books and update progress',
-    //   technologies: 'React | Redux | Ruby on Rails',
-    //   link: 'https://melodic-boba-111583.netlify.app/',
-    //   github: 'https://github.com/Meri-MG/bookstore---react',
-    // },
+    {
+      id: 1,
+      title: 'Food delivery app',
+      img: IMG6,
+      description:
+        'A responsive food delivery app with option to add items into cart',
+      technologies: 'React | Redux | Router',
+      link: 'https://adershgr-food-delivery.netlify.app/',
+      github: 'https://github.com/adershgr/food-delivery-app',
+    },
     {
       id: 1,
       title: 'Tenzi Game',
