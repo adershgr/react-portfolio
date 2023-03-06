@@ -4,7 +4,7 @@ import IMG2 from '../../assets/product-preview.png';
 import IMG6 from '../../assets/foodapp.png'
 import IMG3 from '../../assets/calculator.png';
 import IMG4 from '../../assets/apiShop.png';
-import IMG5 from '../../assets/resumeHtml.png';
+import IMG5 from '../../assets/resume.png';
 
 import './portfolio.css';
 
@@ -65,10 +65,10 @@ const Portfolio = () => {
       title: 'Resume website',
       img: IMG5,
       description:
-        'A responsive resume website with vanila javascript',
+        'A responsive resume website with React',
       technologies: 'Vanila JS | CSS | HTML',
-      link: 'https://adershgr.github.io/resumeWeb/',
-      github: 'https://github.com/adershgr/resumeWeb',
+      link: 'https://adershgr.netlify.app/',
+      github: 'https://github.com/adershgr/react-portfolio',
     },
  
   ];

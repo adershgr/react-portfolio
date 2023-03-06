@@ -17,11 +17,14 @@ const Contact = () => {
   return (
     <section id="contact">
       <h5>Get In Touch</h5>
+    
+      <h2>Contact Me</h2>
+   
       <h5>
         I do receive your messages and will respond asap if the valid email is
-        provided :)
+        provided
       </h5>
-      <h2>Contact Me</h2>
+      <br/>
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
@@ -31,6 +34,7 @@ const Contact = () => {
             <a href="https://www.linkedin.com/in/adersh-gr-506a1b1a6/" target="_blank" rel="noreferrer">Send a message</a>
           </article>
         </div>
+        
         <form ref={form} onSubmit={sendEmail}>
           <input type="text" name="name" placeholder='Your Full Name' required />
           <input type="email" name="email" placeholder='Your Email' required />
