@@ -4,7 +4,7 @@ import IMG2 from '../../assets/product-preview.png';
 import IMG6 from '../../assets/foodapp.png'
 import IMG3 from '../../assets/calculator.png';
 import IMG4 from '../../assets/apiShop.png';
-import IMG5 from '../../assets/resume.png';
+import IMG5 from '../../assets/todo.png';
 
 import './portfolio.css';
 
@@ -42,13 +42,13 @@ const Portfolio = () => {
     },
     {
       id: 1,
-      title: 'Arithmetic Calculator',
-      img: IMG3,
+      title: 'To Do App',
+      img: IMG5,
       description:
-        'A basic Aruthmetic software using java',
-      technologies: 'Java | Java swing',
-      link: 'https://github.com/adershgr/Arithmetic-Calculator',
-      github: 'https://github.com/adershgr/Arithmetic-Calculator',
+        'A responsive To-Do application with React',
+      technologies: 'ReactJS | CSS | HTML',
+      link: 'https://adershgr-to-do-app.netlify.app/',
+      github: 'https://github.com/adershgr/to-do',
     },
     {
       id: 1,
@@ -62,14 +62,15 @@ const Portfolio = () => {
     },
     {
       id: 1,
-      title: 'Resume website',
-      img: IMG5,
+      title: 'Arithmetic Calculator',
+      img: IMG3,
       description:
-        'A responsive resume website with React',
-      technologies: 'Vanila JS | CSS | HTML',
-      link: 'https://adershgr.netlify.app/',
-      github: 'https://github.com/adershgr/react-portfolio',
+        'A basic Aruthmetic software using java',
+      technologies: 'Java | Java swing',
+      link: 'https://github.com/adershgr/Arithmetic-Calculator',
+      github: 'https://github.com/adershgr/Arithmetic-Calculator',
     },
+    
  
   ];
 
