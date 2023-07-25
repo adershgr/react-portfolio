@@ -4,7 +4,7 @@ import IMG2 from '../../assets/product-preview.png';
 import IMG6 from '../../assets/foodapp.png'
 import IMG3 from '../../assets/calculator.png';
 import IMG4 from '../../assets/apiShop.png';
-import IMG5 from '../../assets/todo.png';
+import IMG5 from '../../assets/tasklist.png'
 
 import './portfolio.css';
 
@@ -12,13 +12,13 @@ const Portfolio = () => {
   const soloProjects = [
     {
       id: 1,
-      title: 'Food delivery app',
-      img: IMG6,
+      title: 'Task-List',
+      img: IMG5,
       description:
-        'A responsive food delivery app with option to add items into cart',
-      technologies: 'React | Redux | Router',
-      link: 'https://adershgr-food-delivery.netlify.app/',
-      github: 'https://github.com/adershgr/food-delivery-app',
+        'A TaskList application to read, write and update your daily activities',
+      technologies: 'React | Redux | Bootstrap',
+      link: 'https://adershgr-react-tasklist.netlify.app/',
+      github: 'https://github.com/adershgr/TaskList',
     },
     {
       id: 1,
@@ -42,13 +42,13 @@ const Portfolio = () => {
     },
     {
       id: 1,
-      title: 'To Do App',
-      img: IMG5,
+      title: 'Food delivery app',
+      img: IMG6,
       description:
-        'A responsive To-Do application with React',
-      technologies: 'ReactJS | CSS | HTML',
-      link: 'https://adershgr-to-do-app.netlify.app/',
-      github: 'https://github.com/adershgr/to-do',
+        'A responsive food delivery app with option to add items into cart',
+      technologies: 'React | Redux | Router',
+      link: 'https://adershgr-food-delivery.netlify.app/',
+      github: 'https://github.com/adershgr/food-delivery-app',
     },
     {
       id: 1,

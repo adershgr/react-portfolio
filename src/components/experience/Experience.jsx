@@ -27,6 +27,14 @@ const Experience = () => {
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>Java Script</h4>
             </article>
+             <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4>SQL</h4>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4>Typescript</h4>
+            </article>
           </div>
         </div>
 
@@ -45,7 +53,7 @@ const Experience = () => {
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Material UI</h4>
+              <h4>NextJs</h4>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
@@ -57,7 +65,15 @@ const Experience = () => {
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>React Router</h4>
+              <h4>Node Js</h4>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4>GraphQL</h4>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4>ExpressJs</h4>
             </article>
           </div>
         </div>
