@@ -1,8 +1,8 @@
 import React from 'react';
 import IMG1 from '../../assets/tenzi.png';
-import IMG2 from '../../assets/product-preview.png';
+import IMG2 from '../../assets/weather.png';
 import IMG6 from '../../assets/foodapp.png'
-import IMG3 from '../../assets/calculator.png';
+import IMG3 from '../../assets/calc.png';
 import IMG4 from '../../assets/apiShop.png';
 import IMG5 from '../../assets/tasklist.png'
 
@@ -22,6 +22,16 @@ const Portfolio = () => {
     },
     {
       id: 1,
+      title: 'Weather Now',
+      img: IMG2,
+      description:
+        'Get real-time weather updates for any city, instantly',
+      technologies: 'React | Bootstrap CSS | API Integration',
+      link: 'https://weatherapp-15.netlify.app/',
+      github: 'https://github.com/adershgr/weatherApp',
+    },
+    {
+      id: 1,
       title: 'Tenzi Game',
       img: IMG1,
       description:
@@ -29,16 +39,6 @@ const Portfolio = () => {
       technologies: 'React | HTML | CSS',
       link: 'https://adershgr-tenzi-game.netlify.app/',
       github: 'https://github.com/adershgr/tenzi-game',
-    },
-    {
-      id: 1,
-      title: 'Product Preview',
-      img: IMG2,
-      description:
-        'Preview of a product in a responsive website',
-      technologies: 'React | Bootstrap CSS | HTML',
-      link: 'https://adersh-product-preview.netlify.app/',
-      github: 'https://github.com/adershgr/product-preview',
     },
     {
       id: 1,
@@ -70,8 +70,8 @@ const Portfolio = () => {
       link: 'https://github.com/adershgr/Arithmetic-Calculator',
       github: 'https://github.com/adershgr/Arithmetic-Calculator',
     },
-    
- 
+
+
   ];
 
   return (
