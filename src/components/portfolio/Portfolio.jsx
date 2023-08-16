@@ -55,7 +55,7 @@ const Portfolio = () => {
       title: 'Keep Notes',
       img: IMG4,
       description:
-        '"Designed and developed a user-friendly web application for seamless note-taking and organization',
+        '"Designed and developed a user-friendly application for seamless note-taking.',
       technologies: 'ReactJS | Bootstrap CSS | HTML',
       link: 'https://keep-yournotes.netlify.app/',
       github: 'https://github.com/adershgr/keepnotes',
