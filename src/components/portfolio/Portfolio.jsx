@@ -3,7 +3,7 @@ import IMG1 from '../../assets/tenzi.png';
 import IMG2 from '../../assets/weather.png';
 import IMG6 from '../../assets/foodapp.png'
 import IMG3 from '../../assets/calc.png';
-import IMG4 from '../../assets/apiShop.png';
+import IMG4 from '../../assets/keepnote.png';
 import IMG5 from '../../assets/tasklist.png'
 
 import './portfolio.css';
@@ -52,13 +52,13 @@ const Portfolio = () => {
     },
     {
       id: 1,
-      title: 'Online shop with API',
+      title: 'Keep Notes',
       img: IMG4,
       description:
-        'Preview of a shop with items Loading from an API',
-      technologies: 'React | Bootstrap CSS | HTML',
-      link: 'https://onlineshop-with-fakeapi.netlify.app/',
-      github: 'https://github.com/adershgr/onlineshop',
+        '"Designed and developed a user-friendly web application for seamless note-taking and organization',
+      technologies: 'ReactJS | Bootstrap CSS | HTML',
+      link: 'https://keep-yournotes.netlify.app/',
+      github: 'https://github.com/adershgr/keepnotes',
     },
     {
       id: 1,
