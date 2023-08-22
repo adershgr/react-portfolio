@@ -41,7 +41,7 @@ const Experience = () => {
          {/*  technology stack  */}
 
         <div className="experience__backend">
-          <h3>Technology stack</h3>
+          <h3>Technology Stack</h3>
           <div className="experience__content">
           <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
@@ -63,18 +63,22 @@ const Experience = () => {
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>Git/GitHub</h4>
             </article>
-            <article className="experience__details">
+             <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4>Bootstrap</h4>
+            </article>
+            {/* <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>Node Js</h4>
-            </article>
-            <article className="experience__details">
+            </article> */}
+            {/* <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>REST APIs</h4>
-            </article>
-            <article className="experience__details">
+            </article> */}
+            {/* <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>ExpressJs</h4>
-            </article>
+            </article> */}
           </div>
         </div>
       </div>
