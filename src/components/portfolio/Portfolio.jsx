@@ -2,7 +2,7 @@ import React from 'react';
 import IMG1 from '../../assets/tenzi.png';
 import IMG2 from '../../assets/weather.png';
 import IMG6 from '../../assets/foodapp.png'
-import IMG3 from '../../assets/calc.png';
+import IMG3 from '../../assets/ahead.png';
 import IMG4 from '../../assets/keepnote.png';
 import IMG5 from '../../assets/tasklist.png'
 
@@ -32,13 +32,23 @@ const Portfolio = () => {
     },
     {
       id: 1,
-      title: 'Tenzi Game',
+      title: 'Tenzi game',
       img: IMG1,
       description:
         'Tenzi dice game allows user to play this classic game with dice',
       technologies: 'React | HTML | CSS',
       link: 'https://adershgr-tenzi-game.netlify.app/',
       github: 'https://github.com/adershgr/tenzi-game',
+    },
+    {
+      id: 1,
+      title: 'Ahead app redesign',
+      img: IMG3,
+      description:
+        'Redesigned Ahead App for Enhanced User Experience',
+      technologies: 'Nextjs | GSAP animation | Bootstrap',
+      link: 'https://ahead-redesign-app.netlify.app/',
+      github: 'https://github.com/adershgr/ahead-redesign-concept',
     },
     {
       id: 1,
@@ -55,23 +65,11 @@ const Portfolio = () => {
       title: 'Keep Notes',
       img: IMG4,
       description:
-        '"Designed and developed a user-friendly application for seamless note-taking.',
+        'Designed and developed a user-friendly application for seamless note-taking.',
       technologies: 'ReactJS | Bootstrap CSS | HTML',
       link: 'https://keep-yournotes.netlify.app/',
       github: 'https://github.com/adershgr/keepnotes',
     },
-    {
-      id: 1,
-      title: 'Arithmetic Calculator',
-      img: IMG3,
-      description:
-        'A basic Aruthmetic software using java',
-      technologies: 'Java | Java swing',
-      link: 'https://github.com/adershgr/Arithmetic-Calculator',
-      github: 'https://github.com/adershgr/Arithmetic-Calculator',
-    },
-
-
   ];
 
   return (
