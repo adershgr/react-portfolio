@@ -1,33 +1,35 @@
-import React from 'react';
-import { BsLinkedin } from 'react-icons/bs';
-import { FaGithub } from 'react-icons/fa';
-import { SiLeetcode } from 'react-icons/si';
-import { BsFacebook } from 'react-icons/bs';
-import { BsInstagram } from 'react-icons/bs';
-import './footer.css';
+import React from "react";
+import { footerSocials, permalinks } from "../utils/utils";
+import "./footer.css";
 
 const Footer = () => {
   return (
     <footer>
-      <a href="#home" className="footer__logo">ADERSH G R</a>
+      <a href="#home" className="footer__logo">
+        ADERSH G R
+      </a>
       <ul className="permalinks">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#experience">Skills</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#Education">Education</a></li>
-        <li><a href="#contact">Contact</a></li>
+        {permalinks.map((link, index) => (
+          <li key={index}>
+            <a href={link.href}>{link.label}</a>
+          </li>
+        ))}
       </ul>
-      <div className='footer__socials'>
-        <a href='https://www.facebook.com/adersh.gr' className='logo__footer'><BsFacebook /></a>
-        <a href="https://leetcode.com/IMsherlocked/" className='logo__footer'><SiLeetcode /></a>
-        <a href='https://www.instagram.com/adershgr/' className='logo__footer'><BsInstagram /></a>
-        <a href='https://github.com/adershgr' className='logo__footer'><FaGithub /></a>
-        <a href='https://www.linkedin.com/in/adersh-gr-506a1b1a6/' className='logo__footer'><BsLinkedin /></a>
-
+      <div className="footer__socials">
+        {footerSocials.map((social, index) => (
+          <a
+            key={index}
+            href={social.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="logo__footer"
+          >
+            {social.icon}
+          </a>
+        ))}
       </div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

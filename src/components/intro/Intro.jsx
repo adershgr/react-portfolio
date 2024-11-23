@@ -20,7 +20,7 @@ const Intro = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>1+ years working</small>
+              <small>2+ years working</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
@@ -28,7 +28,7 @@ const Intro = () => {
               <small>20+ Completed Projects</small>
             </article>
           </div>
-          <p>I’ve spent the last several months in a remote environment, working with HTML, CSS, JavaScript and React, building everything from landing pages to APIs. After Graduating from a pioneer Engineering college like GEC Thrissur, I have worked on my way to improve my skill level as a web developer. After completing projects on my own, I served as an Intern for a startup and served as a web developer on several live projects.</p>
+          <p>I’m a Software Developer at Solvative, where I’ve spent over a year working on US-based client projects. This role has helped me grow as both a developer and a problem solver, driving me to learn new technologies and apply innovative solutions. Before Solvative, I worked at Neetable and graduated from Government Engineering College, Thrissur, where I refined my skills through hands-on projects. I’m always eager to take on new challenges and continue expanding my expertise.</p>        
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>
       </div>

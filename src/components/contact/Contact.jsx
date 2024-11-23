@@ -1,6 +1,7 @@
 import React, { useRef, useState } from 'react';
 import emailjs from 'emailjs-com'
 import { BsLinkedin } from 'react-icons/bs';
+import { LINKEDIN } from '../utils/utils';
 import './contact.css';
 
 const Contact = () => {
@@ -31,7 +32,7 @@ const Contact = () => {
             <BsLinkedin className="contact__option-icon" />
             <h4>LinkedIn</h4>
             <h5>Adersh G R</h5>
-            <a href="https://www.linkedin.com/in/adersh-gr-506a1b1a6/" target="_blank" rel="noreferrer">Send a message</a>
+            <a href={LINKEDIN}target="_blank" rel="noreferrer">Send a message</a>
           </article>
         </div>
         

@@ -1,6 +1,7 @@
-import React from 'react';
-import { BsFillPatchCheckFill } from 'react-icons/bs';
-import './experience.css';
+import React from "react";
+import { BsFillPatchCheckFill } from "react-icons/bs";
+import "./experience.css";
+import { coreTech, additionalSkills } from "../utils/utils";
 
 const Experience = () => {
   return (
@@ -8,82 +9,31 @@ const Experience = () => {
       <h5>The Skills I Have</h5>
       <h2>Skills</h2>
       <div className="container experience__container">
-        <div className="experience__frontend">
-        <h3>Programming Languages</h3>
+        <div>
+          <h3>Core Technologies</h3>
           <div className="experience__content">
-          <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Javascript</h4>
-            </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>CSS</h4>
-            </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Java</h4>
-            </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>HTML</h4>
-            </article>
-             <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>SQL</h4>
-            </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Typescript</h4>
-            </article>
+            {coreTech.map((language, index) => (
+              <article className="experience__details" key={index}>
+                <BsFillPatchCheckFill className="experience__details-icon" />
+                <h4>{language}</h4>
+              </article>
+            ))}
           </div>
         </div>
-
-         {/*  technology stack  */}
-
-        <div className="experience__backend">
-          <h3>Technology Stack</h3>
+        <div>
+          <h3>Additional Skills</h3>
           <div className="experience__content">
-          <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>ReactJS</h4>
-            </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Material UI</h4>
-            </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>NextJs</h4>
-            </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Redux</h4>
-            </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Git/GitHub</h4>
-            </article>
-             <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Bootstrap</h4>
-            </article>
-            {/* <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Node Js</h4>
-            </article> */}
-            {/* <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>REST APIs</h4>
-            </article> */}
-            {/* <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>ExpressJs</h4>
-            </article> */}
+            {additionalSkills.map((tech, index) => (
+              <article className="experience__details" key={index}>
+                <BsFillPatchCheckFill className="experience__details-icon" />
+                <h4>{tech}</h4>
+              </article>
+            ))}
           </div>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Experience
+export default Experience;
