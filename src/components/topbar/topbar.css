@@ -1,5 +1,10 @@
 nav {
-  background: rgba(0, 0, 0, 0.3);
+  /* background: rgba(104, 104, 104, 0.3); */
+  background: linear-gradient(
+  135deg,
+  rgba(55, 55, 226, 0.15),
+  rgba(59, 52, 151, 0.1)
+);
   width: max-content;
   display: block;
   padding: 0.7rem 1.7rem;
@@ -12,9 +17,11 @@ nav {
   gap: 0.8rem;
   border-radius: 3rem;
   backdrop-filter: blur(15px);
+  border: 1px solid rgba(147, 147, 147, 0.3); 
+  box-shadow: 0 8px 32px 0 rgba(35, 39, 104, 0.37); 
 }
 
-nav a {
+nav div {
   background: transparent;
   padding: 0.9rem;
   border-radius: 50%;
@@ -23,11 +30,12 @@ nav a {
   font-size: 1.1rem;
 }
 
-nav a:hover {
-  background: rgba(0, 0, 0, 0.3);
+nav div:hover {
+  background: var(--color-bg-nav);
+  cursor: pointer;
 }
 
-nav a.active {
-  background: var(--color-bg);
+nav div.active {
+  background: var(--color-bg-nav);
   color: var(--color-white);
 }

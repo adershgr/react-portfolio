@@ -28,7 +28,10 @@ const Intro = () => {
               <small>20+ Completed Projects</small>
             </article>
           </div>
-          <p>I’m a Software Developer at Solvative, where I’ve spent over a year working on US-based client projects. This role has helped me grow as both a developer and a problem solver, driving me to learn new technologies and apply innovative solutions. Before Solvative, I worked at Neetable and graduated from Government Engineering College, Thrissur, where I refined my skills through hands-on projects. I’m always eager to take on new challenges and continue expanding my expertise.</p>        
+          <p className='intro-text-color'>I’m a Software Developer at Solvative, where I contribute to US-based client projects focused on scalable, user-centric solutions. This role has strengthened my skills in full-stack development and sharpened my ability to solve real-world problems through technology. 
+          </p>   
+          <p className='intro-text-color'>
+          Prior to this, I was with Neetable, and I’m a graduate of Government Engineering College, Thrissur. My foundation was built through hands-on development work, and I continue to stay driven by curiosity, innovation, and a passion for learning.</p>        
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>
       </div>

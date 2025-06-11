@@ -11,8 +11,9 @@
 }
 
 :root {
-  --color-bg: #1f1f38;
-  --color-bg-variant: #2c2c6c;
+  --color-bg: #18182e;
+  --color-bg-nav: linear-gradient(to bottom, #1d3699 60%, #07062d 100%);
+  --color-bg-variant: linear-gradient(to bottom, #232361 0%, #131339 100%);
   --color-primary: #4db5ff;
   --color-primary-variant: rgba(77, 181, 255, 0.4);
   --color-white: #fff;
@@ -60,7 +61,8 @@ h1 {
 }
 
 section {
-  margin-top: 8rem;
+  margin-top: 7rem;
+  scroll-margin-top: 5rem;
 }
 
 section > h2,
@@ -122,6 +124,7 @@ img {
 
   section {
     margin-top: 6rem;
+    scroll-margin-top: 5rem;
   }
 }
 

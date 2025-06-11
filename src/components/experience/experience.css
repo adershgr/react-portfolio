@@ -4,6 +4,10 @@
     gap: 2rem;
 }
 
+.experience-section {
+    padding-block: 7rem 10rem; 
+}
+
 .experience__container > div {
     background: var(--color-bg-variant);
     padding: 2.4rem 5rem;

@@ -16,6 +16,7 @@
 .about__me-image {
     border-radius: 2rem;
     overflow: hidden;
+    box-shadow: 0 8px 32px 0 rgba(1, 1, 97, 0.37); 
     /* transform: rotate(5deg); */
     transition: var(--transition);
 }
@@ -63,6 +64,10 @@
 .about__content p {
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
+}
+
+.intro-text-color {
+    color: #ece9e9 !important;
 }
 
 @media screen and (max-width: 1024px){
